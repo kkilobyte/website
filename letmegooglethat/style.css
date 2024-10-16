@@ -1,0 +1,50 @@
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+font-size: 14px; 
+    text-align: center;
+    cursor: default;
+    color: #fff !important;
+    background-color: #000 !important;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 0px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    
+   /* prevent rounding on iphone*/
+-webkit-appearance: none!important;
+}
+
+
+input[type="button"]{ 
+    align-items: flex-start;
+   font-family: arial,sans-serif;
+   font-size: 16px;
+   font-weight: none;
+   text-align: center;
+   cursor: default;
+   max-width: 155px;
+   min-width: 150px;
+   width:20%;
+   height: 45px;
+   overflow: visible;
+   color: #5F6368 !important;
+   background-color: #f4f4f4 !important;
+   box-sizing: border-box;
+   border-radius: 5px;
+   padding: 12px 16px 13px;
+   border-width: 0px;
+   border-style: none !important;
+   
+   /* prevent rounding on iphone*/
+-webkit-appearance: none!important;
+}
+input[type="button"]:hover
+{
+box-shadow:0 1px 1px rgba(0,0,0,0.3) !important;
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3) !important;
+   /* prevent rounding on iphone*/
+   -webkit-appearance: none!important;
+}
