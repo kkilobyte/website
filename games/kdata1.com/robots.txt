@@ -1,5 +1,0 @@
-Disallow: /*.swf$
-Disallow: /*.unity3d$
-Disallow: /*.rar$
-Disallow: /*.zip$
-Disallow: /download
